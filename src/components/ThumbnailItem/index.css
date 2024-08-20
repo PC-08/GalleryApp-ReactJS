@@ -1,0 +1,21 @@
+/* Write your code here. */
+
+.li {
+  opacity: 0.5;
+  margin: 10px;
+}
+
+.op {
+  opacity: 100;
+}
+
+.bt-gal {
+  background: transparent;
+  border: 0;
+}
+
+@media (max-width: 576px) {
+  .li {
+    margin: 5px;
+  }
+}

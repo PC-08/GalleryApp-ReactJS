@@ -1,0 +1,64 @@
+/* Write your code here. */
+
+.bg {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.aimg {
+}
+
+.head {
+  color: #1e293b;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style-type: none;
+}
+
+.box {
+  align-self: flex-start;
+  padding-left: 180px;
+}
+
+.para {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  .aimg {
+    width: 250px;
+  }
+
+  .bg {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head {
+    font-size: 22px;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .box {
+    padding: 0px;
+  }
+}
